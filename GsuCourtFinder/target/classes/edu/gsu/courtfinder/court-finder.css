@@ -1,0 +1,296 @@
+.root {
+    -fx-font-family: "Arial", "Helvetica Neue", sans-serif;
+    -fx-background-color: #f5f6f8;
+    -fx-text-fill: #222222;
+}
+
+.app-root {
+    -fx-background-color: #f5f6f8;
+}
+
+.app-header {
+    -fx-background-color: #f58220;
+    -fx-padding: 20 28;
+}
+
+.app-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.app-subtitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: #333333;
+}
+
+
+.tab-pane {
+    -fx-background-color: transparent;
+    -fx-padding: 0 26 24 26;
+    -fx-tab-min-height: 42px;
+    -fx-tab-max-height: 42px;
+}
+
+.tab-pane > .tab-header-area {
+    -fx-padding: 0 0 16 0;
+}
+
+.tab-pane > .tab-header-area > .tab-header-background {
+    -fx-background-color: white;
+    -fx-border-color: transparent transparent #dddddd transparent;
+}
+
+.tab {
+    -fx-background-color: transparent;
+    -fx-padding: 0 16;
+}
+
+.tab .tab-label {
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #555555;
+}
+
+.tab:hover .tab-label {
+    -fx-text-fill: #f58220;
+}
+
+.tab:selected {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent transparent #f58220 transparent;
+    -fx-border-width: 0 0 3 0;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #f58220;
+}
+
+.tab-content-area {
+    -fx-background-color: transparent;
+}
+
+.page {
+    -fx-padding: 2 0 0 0;
+    -fx-spacing: 14;
+}
+
+.page-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #000000;
+}
+
+.page-subtitle {
+    -fx-font-size: 13px;
+    -fx-text-fill: #666666;
+    -fx-padding: 0 0 4 0;
+}
+
+.card {
+    -fx-background-color: white;
+    -fx-background-radius: 10;
+    -fx-border-color: #e1e3e6;
+    -fx-border-radius: 10;
+    -fx-padding: 18;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.045), 8, 0, 0, 2);
+}
+
+.section-title {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222222;
+}
+
+.section-caption {
+    -fx-font-size: 11px;
+    -fx-text-fill: #777777;
+    -fx-padding: 0 0 4 2;
+}
+
+.court-row {
+    -fx-padding: 12 6;
+}
+
+.court-row:hover {
+    -fx-background-color: #fff7f0;
+    -fx-background-radius: 6;
+}
+
+.row-divider {
+    -fx-min-height: 1px;
+    -fx-max-height: 1px;
+    -fx-background-color: #eeeeee;
+}
+
+.court-name {
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+}
+
+.court-meta {
+    -fx-font-size: 11px;
+    -fx-text-fill: #777777;
+}
+
+.id-pill {
+    -fx-background-color: #fff1e6;
+    -fx-background-radius: 5;
+    -fx-padding: 4 8;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #a94700;
+}
+
+.distance-pill {
+    -fx-background-color: #fff1e6;
+    -fx-background-radius: 5;
+    -fx-padding: 5 9;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #a94700;
+}
+
+.label {
+    -fx-text-fill: #222222;
+}
+
+.text-field,
+.combo-box {
+    -fx-background-color: white;
+    -fx-background-radius: 6;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 6;
+    -fx-padding: 8 10;
+    -fx-font-size: 13px;
+}
+
+.text-field:focused,
+.combo-box:focused {
+    -fx-border-color: #f58220;
+}
+
+.combo-box .list-cell {
+    -fx-font-size: 13px;
+    -fx-padding: 3 5;
+}
+
+.primary-button {
+    -fx-background-color: #f58220;
+    -fx-background-radius: 6;
+    -fx-padding: 9 16;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #d96b0b;
+}
+
+.field-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #444444;
+}
+
+.hint {
+    -fx-font-size: 11px;
+    -fx-text-fill: #777777;
+}
+
+.success-box {
+    -fx-background-color: #fff1e6;
+    -fx-background-radius: 6;
+    -fx-border-color: #f2c9a5;
+    -fx-border-radius: 6;
+    -fx-padding: 10 12;
+    -fx-text-fill: #8a3d00;
+    -fx-font-weight: bold;
+}
+
+.empty-state {
+    -fx-font-size: 12px;
+    -fx-text-fill: #777777;
+    -fx-padding: 12 2;
+}
+
+.footer-note {
+    -fx-font-size: 11px;
+    -fx-text-fill: #777777;
+}
+
+.results-court-name {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #111111;
+    -fx-padding: 0 0 2 0;
+}
+
+.day-group {
+    -fx-background-color: #fafafa;
+    -fx-background-radius: 6;
+    -fx-border-color: #e5e5e5;
+    -fx-border-radius: 6;
+    -fx-padding: 10 12;
+}
+
+.day-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #b44e00;
+}
+
+.slot-row {
+    -fx-padding: 2 0;
+}
+
+.slot-name {
+    -fx-font-size: 12px;
+    -fx-text-fill: #444444;
+}
+
+.slot-count {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #222222;
+}
+
+.peak-box {
+    -fx-background-color: #fff1e6;
+    -fx-background-radius: 6;
+    -fx-padding: 10 12;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #a94700;
+}
+
+.tab-pane,
+.tab,
+.button,
+.text-field,
+.combo-box {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.basketball-icon {
+    -fx-font-size: 34px;
+    -fx-padding: 0 2 0 0;
+}
+
+/* Small polish for a cleaner portfolio-style interface. */
+.tab-pane > .tab-header-area > .headers-region {
+    -fx-background-color: white;
+}
+
+.combo-box:hover,
+.text-field:hover {
+    -fx-border-color: #aaaaaa;
+}
+
+.primary-button:pressed {
+    -fx-translate-y: 1px;
+}
